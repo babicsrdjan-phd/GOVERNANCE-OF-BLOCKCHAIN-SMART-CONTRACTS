@@ -48,7 +48,7 @@ describe("CEFTA Trade Engine Full Governance Validation Suite", function () {
     await origin.registerCertificate(cert, 1, 0, false);
 
     console.log(
-      "- Registering Trade -> Exporter from Sertbia, Importer from Bosnia, HS123, quoantity 10, ....",
+      "- Registering Trade -> Exporter from Serbia, Importer from Bosnia, HS123, quoantity 10, ....",
     );
     await expect(
       engine.executeTrade(
